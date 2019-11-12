@@ -1,0 +1,40 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.7.3"
+
+[packages]
+pandas = "==0.24.2"
+numpy = "*"
+python-dotenv = "*"
+tqdm = "*"
+argparse = "*"
+graphviz = "*"
+plotly = "*"
+dash = "==1.4.1"
+dash-daq = "==0.2.1"
+scipy = "*"
+sklearn = "*"
+pydotplus = "*"
+matplotlib = "*"
+seaborn = "*"
+statsmodels = "*"
+forestci = "*"
+duecredit = "*"
+xgboost = "*"
+imblearn = "*"
+jupyterlab = "*"
+jupyter-contrib-nbextensions = "*"
+
+[dev-packages]
+pylint = "*"
+"autopep8" = "*"
+pudb = "*"
+neovim = "*"
+
+[scripts]
+lint = "pylint --rcfile=../.pylintrc production"
+lint-fix = "autopep8 --in-place --aggressive --aggressive --recursive production utils dev ../schema"
