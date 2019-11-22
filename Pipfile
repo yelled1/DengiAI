@@ -26,9 +26,9 @@ forestci = "*"
 duecredit = "*"
 xgboost = "*"
 imblearn = "*"
+missingno = "*"
 jupyterlab = "*"
 jupyter-contrib-nbextensions = "*"
-missingno = "*"
 
 [dev-packages]
 pylint = "*"
